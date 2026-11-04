@@ -1,17 +1,26 @@
-# tanur
+# Tanur
 
-A new Flutter project.
+Koleksi slicing antarmuka (UI screens) aplikasi Tanur Flutter.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## Tampilan Layar
 
-A few resources to get you started if this is your first Flutter project:
+| Menu Utama | Jadwal Sholat | Al-Qur'an |
+| :---: | :---: | :---: |
+| <img src="screenshots/menu_utama.png" width="220" alt="Menu Utama" /> | <img src="screenshots/jadwal_sholat.png" width="220" alt="Jadwal Sholat" /> | <img src="screenshots/al_quran.png" width="220" alt="Al-Qur'an" /> |
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+| Panduan Umrah | Berita Umrah | Detail Artikel |
+| :---: | :---: | :---: |
+| <img src="screenshots/panduan_umrah.png" width="220" alt="Panduan Umrah" /> | <img src="screenshots/berita.png" width="220" alt="Berita Umrah" /> | <img src="screenshots/detail_berita.png" width="220" alt="Detail Artikel" /> |
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## Daftar Layar
+
+- **Menu Utama**: Navigasi daftar materi dan panduan ibadah umrah.
+- **Jadwal Sholat**: Informasi jadwal waktu sholat harian.
+- **Al-Qur'an**: Daftar surah, informasi ayat, dan kaligrafi nama surah.
+- **Panduan Umrah**: Halaman Teks materi manasik ibadah 
+- **Berita Umrah**: Daftar informasi dan kabar terkini seputar tanah suci .
+- **Detail Artikel**: Halaman baca artikel

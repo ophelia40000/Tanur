@@ -52,7 +52,11 @@ class UmrahMenuPage extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.stretch,
               children: [
                 Padding(
-                  padding: const EdgeInsets.only(left: 20.0, right: 20.0, top: 14.0),
+                  padding: const EdgeInsets.only(
+                    left: 20.0,
+                    right: 20.0,
+                    top: 14.0,
+                  ),
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     crossAxisAlignment: CrossAxisAlignment.center,
@@ -64,7 +68,10 @@ class UmrahMenuPage extends StatelessWidget {
                             behavior: HitTestBehavior.opaque,
                             onTap: () {},
                             child: const Padding(
-                              padding: EdgeInsets.symmetric(vertical: 6.0, horizontal: 2.0),
+                              padding: EdgeInsets.symmetric(
+                                vertical: 6.0,
+                                horizontal: 2.0,
+                              ),
                               child: SharpChevron(
                                 direction: ChevronDirection.left,
                                 width: 9.0,
@@ -90,14 +97,16 @@ class UmrahMenuPage extends StatelessWidget {
                               letterSpacing: -0.5,
                             ),
                           ),
-                          
                         ],
                       ),
                       GestureDetector(
                         behavior: HitTestBehavior.opaque,
                         onTap: () {},
                         child: const Padding(
-                          padding: EdgeInsets.symmetric(vertical: 8.0, horizontal: 4.0),
+                          padding: EdgeInsets.symmetric(
+                            vertical: 8.0,
+                            horizontal: 4.0,
+                          ),
                           child: ThreeDotsIcon(),
                         ),
                       ),
@@ -138,28 +147,34 @@ class UmrahMenuPage extends StatelessWidget {
                                       Navigator.push(
                                         context,
                                         MaterialPageRoute(
-                                          builder: (context) => const DefinisiUmrahPage(),
+                                          builder: (context) =>
+                                              const DefinisiUmrahPage(),
                                         ),
                                       );
                                     } else if (index == 1) {
                                       Navigator.push(
                                         context,
                                         MaterialPageRoute(
-                                          builder: (context) => const JadwalSholatPage(),
+                                          builder: (context) =>
+                                              const JadwalSholatPage(),
                                         ),
                                       );
                                     } else if (index == 2) {
                                       Navigator.push(
                                         context,
                                         MaterialPageRoute(
-                                          builder: (context) => const AlQuranPage(),
+                                          builder: (context) =>
+                                              const AlQuranPage(),
                                         ),
                                       );
                                     } else if (index == 3) {
                                       Navigator.push(
                                         context,
                                         MaterialPageRoute(
-                                          builder: (context) => const BeritaPage(showBackButton: true),
+                                          builder: (context) =>
+                                              const BeritaPage(
+                                                showBackButton: true,
+                                              ),
                                         ),
                                       );
                                     }
@@ -174,7 +189,8 @@ class UmrahMenuPage extends StatelessWidget {
                                       bottom: 15.0,
                                     ),
                                     child: Row(
-                                      crossAxisAlignment: CrossAxisAlignment.center,
+                                      crossAxisAlignment:
+                                          CrossAxisAlignment.center,
                                       children: [
                                         Expanded(
                                           child: Text(
@@ -182,7 +198,9 @@ class UmrahMenuPage extends StatelessWidget {
                                             style: const TextStyle(
                                               fontSize: 15.5,
                                               fontWeight: FontWeight.w900,
-                                              fontVariations: [FontVariation('wght', 900.0)],
+                                              fontVariations: [
+                                                FontVariation('wght', 900.0),
+                                              ],
                                               color: Color(0xFF0C0910),
                                               letterSpacing: 1.0,
                                               height: 1.25,
@@ -431,12 +449,7 @@ class ThreeDotsIcon extends StatelessWidget {
     return Container(
       width: 4.5,
       height: 4.5,
-      decoration: BoxDecoration(
-        color: color,
-        shape: BoxShape.circle,
-      ),
+      decoration: BoxDecoration(color: color, shape: BoxShape.circle),
     );
   }
 }
-
-

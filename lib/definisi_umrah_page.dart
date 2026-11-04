@@ -91,7 +91,7 @@ class DefinisiUmrahPage extends StatelessWidget {
                         ),
                         const SizedBox(height: 14),
                         const Text(
-                          "Menurut bahasa, umrah (\u2020) berarti ziarah atau berkunjung. Adapun pengertian umrah menurut syariat adalah berziarah ke Baitullah dengan berthawaf (mengelilingi Ka'bah 7 kali), mengerjakan sa'i di antara bukit Shafa dan bukit Marwah, serta mencukur atau memendekkan rambut kepala.",
+                          "Menurut bahasa, umrah (عُمْرَة) berarti ziarah atau berkunjung. Adapun pengertian umrah menurut syariat adalah berziarah ke Baitullah dengan berthawaf (mengelilingi Ka'bah 7 kali), mengerjakan sa'i di antara bukit Shafa dan bukit Marwah, serta mencukur atau memendekkan rambut kepala.",
                           textAlign: TextAlign.justify,
                           style: TextStyle(
                             fontSize: 15.5,

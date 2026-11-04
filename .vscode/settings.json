@@ -1,0 +1,14 @@
+{
+  "dart.flutterSdkPath": "C:\\flutter",
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": false,
+    "strings": false
+  },
+  "editor.suggestOnTriggerCharacters": true,
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.suggestSelection": "first"
+  }
+}
+
