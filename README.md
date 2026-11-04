@@ -1,6 +1,6 @@
 # Tanur
 
-Koleksi slicing antarmuka (UI screens) aplikasi panduan ibadah Umrah, jadwal sholat, dan Al-Qur'an berbasis Flutter.
+Koleksi slicing antarmuka yang  saya buat selama magang di PT Tanur Muthmainnah Tour.
 
 ---
 
